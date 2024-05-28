@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movy - Página 1</title>
+  <link rel="stylesheet" href="da.css">
+  <style>
+    
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto 0; /* Espacio superior entre el texto y la imagen */
+  border-radius: 8px; /* Opcional: bordes redondeados */
+}  
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html" onclick="transitionToPage(event, 'his.html')">History</a></li>
+      <li><a href="act.html" onclick="transitionToPage(event, 'act.html')">Frag'Movy</a></li>
+      <li><a href="https://linktr.ee/MovyFTW">Freestyle Sniping Content</a></li>
+      <li><a href="https://streamlabs.com/movyftw_/tip">Donations</a></li>
+    </ul>
+    <div class="nav-extras">
+      <!-- Aquí puedes agregar elementos adicionales en la barra de navegación si es necesario -->
+    </div>
+  </nav>
+  
+
+  <div id="transition-overlay">
+    <video id="transition-video" src="trans.mp4"></video>
+  </div>
+
+  <script src="wo.js"></script>
+</body>
+</html>
+<div class="container">
+  <h1>Actual Movy</h1>
+  <p>Currently, Movy creates content on both YouTube and Twitch. On YouTube, he uploads video edits showcasing their best plays from their current gaming sessions. Meanwhile, on TikTok, he shares videos revealing the classes that he uses in Warzone. Additionally, Movy streams regularly on Twitch, engaging with their audience in real-time while showcasing their skills and gameplay.</p>
+ 
+  <!-- Aquí inserta el código iframe proporcionado por YouTube -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GjtedpEBVI4?si=e0BOMCnTs3HMGqJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
